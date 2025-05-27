@@ -73,3 +73,4 @@ if video_url:
                 else:
                     st.error(f"⚠ Lỗi khi tải phụ đề.")
     else:
+        st.warning("❌ Không tìm thấy phụ đề nào cho video này.")
