@@ -73,4 +73,4 @@ if st.button("📥 Tải phụ đề"):
                     st.download_button("📄 Tải về file .srt", f, file_name=file_path, mime="text/plain")
                 os.remove(file_path)
             else:
-                st.error(f"⚠ {content or 'Không tìm thấy phụ đề.'}
+                st.error(f"⚠ {content or 'Không tìm thấy phụ đề.'}")
